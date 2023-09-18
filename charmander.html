@@ -24,7 +24,7 @@
 
         <!-- Nosso CSS -->
         <link rel="stylesheet" href="/assets/css/global.css" />
-        <link rel="stylesheet" href="/assets/css/pokemon-detail.css" />
+        <link rel="stylesheet" href="/assets/css/charmander.css" />
 
         <!-- Ícones Google -->
         <link
@@ -32,12 +32,32 @@
             href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 
         <!-- Script JS -->
-        <script defer src="/assets/js/pokemon-detail.js"></script>
+        <script defer src="/assets/js/pokemon-model.js"></script>
+        <script defer src="/assets/js/poke-api.js"></script>
+        <script defer src="/assets/js/charmander.js"></script>
     </head>
 
-    <body>
-        <div class="details-container .fire">
-            <div class="data-container"></div>
+    <body class="fire">
+        <div class="container">
+            <div class="actions-container">
+                <span class="material-symbols-outlined"> arrow_back </span>
+                <span class="material-symbols-outlined"> favorite </span>
+            </div>
+
+            <div id="header">
+                <!-- Header of Pokemon here -->
+            </div>
+
+            <div id="image-container">
+                <!-- Image of Pokemon -->
+            </div>
+
+            <div class="data-container">
+                Status Base
+                <table id="base-stats">
+                    <!-- Stats of Pokemon here -->
+                </table>
+            </div>
         </div>
     </body>
 </html>
